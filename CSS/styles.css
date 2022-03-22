@@ -105,6 +105,7 @@ body{
 
 .image:hover .overlay{
     opacity: .5;
+    cursor: pointer;
 }
 
 .image:hover .view-icon{
@@ -149,7 +150,7 @@ body{
     justify-content: flex-end;
 }
 
-.price h2{
+.price p{
     color: var(--prim-cyan);
     font-size: 18px;
     margin: 0;
@@ -197,12 +198,13 @@ body{
     color: var(--clr-white);
 }
 
-.author a{
+.author a,
+.data a{
     text-decoration: none;
     color: var(--clr-white);
 }
 
-a:hover,h1:hover{
+a:hover{
     color: var(--prim-cyan);
     cursor: pointer;
 }
