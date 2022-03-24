@@ -58,7 +58,7 @@ main{
 .sec_container{
     background-color: var(--card-bg);
     border-radius: 1rem;
-    padding: 1rem 1rem;
+    padding: 1rem 0.8rem;
     grid-template-columns: 1fr max-content;
     column-gap: 3rem;
     margin-left: 1.5rem;
@@ -79,7 +79,7 @@ main{
 .image img{
     margin: 1rem 0 1rem 0;
 
-    width: 15.556rem;
+    width: 16.556rem;
     border-radius: 10px;
     margin-bottom: 2rem;
 }
